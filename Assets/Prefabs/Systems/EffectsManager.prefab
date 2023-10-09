@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7172538286736547851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791330376583775498}
+  - component: {fileID: 831394647697001988}
+  m_Layer: 0
+  m_Name: EffectsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791330376583775498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7172538286736547851}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &831394647697001988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7172538286736547851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47baffdc1e585248a1a9b1bb8f2e90d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - name: particle_walkdust
+    prefab: {fileID: 1240414762830195394, guid: fb960ac294a973e44b169d2838359083,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0
+    particleFireRate: 0.5
+    pauzeTime: 0.3
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 1
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: impactcloud
+    prefab: {fileID: 2675618108336583601, guid: eb397bc8646be9c47ada86f7aef71d9c,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 270, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.6
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.01
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: SwordSlashParticle
+    prefab: {fileID: 5114880374610365764, guid: c934a1fbc12ed644984fad8b8dbe7db5,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 1.76, y: 2.9, z: -3}
+    rotation: {x: 40, y: 30, z: 252.22}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: LightningTrail
+    prefab: {fileID: 7631101081746075018, guid: 0a3c73d2ec8fbca47b0aa5633b6e29eb,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0
+    particleFireRate: 0
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 1
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: SwordSlashParticle
+    prefab: {fileID: 5114880374610365764, guid: c934a1fbc12ed644984fad8b8dbe7db5,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 0, y: 1.94, z: 0}
+    rotation: {x: 180, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.033
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Combo Slash 1
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 1.4, y: 2.6, z: -3}
+    rotation: {x: 0, y: 0, z: 50}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Combo Slash 2
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 0, y: 1.9, z: -3}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Combo Slash 3
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 1.4, y: 2.9, z: -3}
+    rotation: {x: 0, y: 0, z: 50}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Combo Slash 4
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 1619357402466249215, guid: 9f49d5edc4d0c4e339a783f086642a9f,
+      type: 3}
+    offsetPositions: 4
+    offset: {x: 1.3, y: 3.3, z: -3}
+    rotation: {x: 180, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.1
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Destroyed_Effect
+    prefab: {fileID: 3005199230157060301, guid: b83c5ecafc2554148893c2ed7d88e706,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 1.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Hit_Effect
+    prefab: {fileID: 7265066277732091713, guid: 4226edbd91440944ab7cf7ceb06fbc06,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.5
+    particleFireRate: 0
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Bounce_Spark
+    prefab: {fileID: 8002146141573895227, guid: 629fbddb008beb2448cc944c86162c33,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.5
+    particleFireRate: 0
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Bounce_Cloud
+    prefab: {fileID: 6531269757968358238, guid: 6b7fe6b80fa69df43954db7888f2c4fd,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.5
+    particleFireRate: 0
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Hit_Effect_Star
+    prefab: {fileID: 3070382328064831913, guid: 226fd3ec20f7d5a44846608d6b75e251,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: -1}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.5
+    particleFireRate: 0
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Hit_Flash
+    prefab: {fileID: 6447889967656764850, guid: bee03277266a17b46a2ae6b0365cc091,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 0, z: -1}
+    rotation: {x: 0, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 0
+    defaultLifeTime: 0.5
+    particleFireRate: 0
+    pauzeTime: 0
+    delayedSpawnTime: 0
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Air Combo 1
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 1.4, y: 2.6, z: -3}
+    rotation: {x: 0, y: 0, z: 50}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Air Combo 2
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 2.4, z: -3}
+    rotation: {x: 0, y: 180, z: -90}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Air Combo 3
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 0, y: 3.4, z: -3}
+    rotation: {x: -50, y: 0, z: -210}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.5
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []
+  - name: Air Combo 4
+    prefab: {fileID: 9073043430824965148, guid: 939f330d93e89974fba7d66cac655847,
+      type: 3}
+    parent: {fileID: 0}
+    offsetPositions: 4
+    offset: {x: 1.3, y: 3.3, z: -3}
+    rotation: {x: 180, y: 0, z: 0}
+    isEnabled: 1
+    flipHorizontal: 0
+    isAutoOrienting: 1
+    defaultLifeTime: 0.5
+    particleFireRate: 0.1
+    pauzeTime: 0
+    delayedSpawnTime: 0.125
+    hasCoolDown: 1
+    isConstant: 0
+    canSpawn: 1
+    lifeTime: 
+    newVFX: {fileID: 0}
+    newParticleSystem: {fileID: 0}
+    id: 0
+    instantiatedParticles: []

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: window
+  m_Shader: {fileID: -6465566751694194690, guid: f10c2a14db0d3bf4193e667331523987,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2DArray_0d040bda77c64f688811c8bb13c374c1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_2cdf766de17d46b5aa23611c8d9c7531:
+        m_Texture: {fileID: 2800000, guid: 79be14a20a232174e951b8b9297bba55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: df20fc6c6b7ac944bbf62d5b799600d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Imperfections:
+        m_Texture: {fileID: 2800000, guid: 3e5c6e61754660d449f65b77a721ecc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bea89d275412b924793d85e207f31e55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_65895a52b1aa4bd48310bc68e50a74e5: 0
+    - Boolean_d5948fc21ec2465a98d5df25ec7d072e: 0
+    - Vector1_09ba1e6c534446a79e76f6521dced245: -24.68
+    - Vector1_4a52402b418b45c7bb8066cc62881678: 0.874
+    - _Blend: -0.43
+    - _Detail: 1
+    - _DetailOpacity: -0.16
+    - _DetailSize: 85
+    - _Detail_Range: 0.994
+    - _Detail_X_Offset: -0.21
+    - _Detail_Y_Offset: 0
+    - _Feather: 0.936
+    - _IOR: 0.66
+    - _LitIntensity: 3.6
+    - _Metallic: 0.95
+    - _Opacity: 1
+    - _ReflectionAmount: 1
+    - _ReflectionAmount_1: 1
+    - _Smoothness: 0.994
+    m_Colors:
+    - Color_f623419d440149f69cdaa2292065a42c: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_55cd68d0c0f349c4a02bb3e54da1ccb6: {r: 3.2, g: 1.23, b: 1.15, a: -1.3}
+    - Vector3_56a2fa3404c34b78af9c66eb24ae27cb: {r: 0, g: 0, b: 0, a: 0}
+    - _Detail_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _LitColor: {r: 1, g: 0.7589963, b: 0, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint_1: {r: 0, g: 1, b: 0.47450733, a: 1}
+  m_BuildTextureStacks: []

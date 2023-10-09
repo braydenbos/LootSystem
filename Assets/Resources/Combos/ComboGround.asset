@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406af4809a47bf34ca49dacc966fbc2a, type: 3}
+  m_Name: ComboGround
+  m_EditorClassIdentifier: 
+  attacks:
+  - {fileID: 11400000, guid: f4674bf221d16174b95466e39642846f, type: 2}
+  - {fileID: 11400000, guid: ac09228c08550784ba54bc0bad3d126b, type: 2}
+  - {fileID: 11400000, guid: 169733b886d5e874d9a99f1e055c7f76, type: 2}
+  - {fileID: 11400000, guid: ade69f314bb8772499c6be6da3b2d592, type: 2}

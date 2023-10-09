@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement>
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1">
+            <ui:VisualElement name="Transitions" style="justify-content: flex-start;">
+                <ui:Label text="TRANSITIONS" display-tooltip-when-elided="true" style="justify-content: flex-start; align-items: auto; -unity-text-align: upper-left; -unity-font-style: bold; background-color: rgb(41, 41, 41); font-size: 24px; flex-shrink: 1; border-bottom-width: 5px; padding-bottom: 2px;">
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="AddTransition" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; top: 4px;" />
+                </ui:Label>
+                <ui:VisualElement name="TransitionsList" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Conditions">
+                <ui:Label text="CONDITIONS" display-tooltip-when-elided="true" style="justify-content: flex-start; align-items: auto; -unity-text-align: upper-left; -unity-font-style: bold; font-size: 24px; background-color: rgb(41, 41, 41); border-top-color: rgb(255, 255, 255); border-top-width: 1px; padding-bottom: 6px;">
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="AddCondition" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; top: 4px;" />
+                </ui:Label>
+                <ui:VisualElement name="ConditionsList" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

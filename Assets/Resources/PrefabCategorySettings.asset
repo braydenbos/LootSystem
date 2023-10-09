@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8318b707d943c48b71c405ea41c33b, type: 3}
+  m_Name: PrefabCategorySettings
+  m_EditorClassIdentifier: 
+  prefabCategories:
+  - category: NPC
+    prefabs: []
+    subPrefabCategories:
+    - category: Enemies
+      prefabs:
+      - {fileID: 5324721612420556150, guid: 1441cef77f2c04e4da03754a25460fc4, type: 3}
+      - {fileID: 7303237108151895323, guid: 07d86396217add2478ea873fa937e625, type: 3}
+      - {fileID: 7489094285781279585, guid: 2bffe9bf966a92948b83205c15d369b2, type: 3}
+      - {fileID: 3555261878991748237, guid: e3d678197bfad0c4b9ad42f7ca2c74b2, type: 3}
+      - {fileID: 1111405502564433920, guid: 4091c275d8360e042a9f4675c7310653, type: 3}
+      subPrefabCategories: []
+    - category: Friendly
+      prefabs: []
+      subPrefabCategories: []
+    - category: Bosses
+      prefabs: []
+      subPrefabCategories: []
+  - category: Items
+    prefabs: []
+    subPrefabCategories:
+    - category: Pickups
+      prefabs:
+      - {fileID: 6581524349244541798, guid: 21279d28a9221024eb19f0b6ab07910d, type: 3}
+      - {fileID: 2183861811975285577, guid: ed6eb837796da6142b3bff9f05b9717d, type: 3}
+      subPrefabCategories: []
+    - category: Obstacles
+      prefabs: []
+      subPrefabCategories: []
+  - category: Environment Assets
+    prefabs: []
+    subPrefabCategories:
+    - category: 2D Platform Layer
+      prefabs: []
+      subPrefabCategories:
+      - category: Red Hills Platforms
+        prefabs:
+        - {fileID: 3031764403157113639, guid: eb09c4114ab69d74caa539ee984316a7, type: 3}
+        - {fileID: 7347813731618864909, guid: 83da6b31df5116a4c9c6481d85598ed2, type: 3}
+        - {fileID: 447292117889810076, guid: 6d524285ddef18d4f902f814b62abf61, type: 3}
+        subPrefabCategories: []
+      - category: 2D Assets
+        prefabs: []
+        subPrefabCategories: []
+      - category: Water
+        prefabs: []
+        subPrefabCategories: []
+    - category: Midlayer & Foreground Assets
+      prefabs: []
+      subPrefabCategories:
+      - category: Buildings
+        prefabs:
+        - {fileID: 8581401399604715124, guid: 6c19560fea25f89469b44bf2a03cf81c, type: 3}
+        - {fileID: 7293670493053710903, guid: dcd542d7355cd244db679c306951642b, type: 3}
+        - {fileID: 7491140323504875805, guid: 57581d6fcaa4b034fb682cf6be32dcc4, type: 3}
+        - {fileID: 6216049243965529317, guid: 6bb434f11c132f8408a8d2790236b531, type: 3}
+        - {fileID: 76183491810954701, guid: 23a6f8e7e1bcd2044989824c9343bd23, type: 3}
+        - {fileID: 4234932425146722012, guid: 76c17fe8c8872a64d96be7b60470090d, type: 3}
+        - {fileID: 7229391267096333064, guid: 5bbd655510c695f4e8a7697ccbd3928c, type: 3}
+        - {fileID: 703007200820994705, guid: 1d866ce200dff364d8a78390fbfb9324, type: 3}
+        - {fileID: 923336859249253625, guid: 3ccddc7646f029b49af0305ebe4b5d42, type: 3}
+        - {fileID: 5157496049210321634, guid: 69fbb27296cb8024cba2afcbf80ca7ce, type: 3}
+        - {fileID: 1376746438037512934, guid: 6c86c7e3e4006a4458d20ca2cae2bddf, type: 3}
+        - {fileID: 5248708936955658690, guid: 34844e8bd58609b4ca6795a44603b06e, type: 3}
+        - {fileID: 2701504063102001438, guid: e8b6dbe70699bb945949f40bf4b90698, type: 3}
+        - {fileID: 8520171123663687070, guid: 0d6aa5e324a51a54e866f81740be6246, type: 3}
+        - {fileID: 170703373322909015, guid: d5379c33b9b34db4989f8f89d2984c59, type: 3}
+        - {fileID: 5713986385189596598, guid: 1e48dd39842bd4e479e058eabecd164d, type: 3}
+        - {fileID: 5868348133414112331, guid: 8f8755b56128e7f4086119b14d46e2fa, type: 3}
+        - {fileID: 2503574077414303612, guid: a470a10e6f7a4e34fbdf1327fc23ea40, type: 3}
+        - {fileID: 8725228389941233680, guid: 561c04e1f49840240a03fc09ce04c5e4, type: 3}
+        - {fileID: 8393012038101008455, guid: 3685aadacc979b247836aa6121a0cd2b, type: 3}
+        - {fileID: 8057844622993978723, guid: bb13e843056b70740a8fc55c8148c7d1, type: 3}
+        - {fileID: 8653186917062083807, guid: a1252eb4792d0ed459672b046c4833cb, type: 3}
+        - {fileID: 5475756025666098591, guid: 0795d5ddeb9fb5246af76c19e853ffdc, type: 3}
+        - {fileID: 3627178890775643685, guid: 407b9f481615a6749ac12544ebd8d586, type: 3}
+        - {fileID: 8997188446050127714, guid: 839aa523e33e9964fa8cfd1015faa384, type: 3}
+        - {fileID: 9124926130302118501, guid: e95b95aaf157cc24f8408b9434d06017, type: 3}
+        - {fileID: 4391527794821870859, guid: 36ee9908720061147b9711372d937fd7, type: 3}
+        - {fileID: 3533064223383574097, guid: 3b2e3b571a1d00e489ee55c6548d83e6, type: 3}
+        - {fileID: 9074190088621157572, guid: 8ada8384a45302d4d8442a42459f56ff, type: 3}
+        - {fileID: 5750500796604086332, guid: 55ae4a27ecc62cc458d6222eece1729f, type: 3}
+        - {fileID: 2001194696302644003, guid: 433ae2d15306d324bbf8389426d2871c, type: 3}
+        - {fileID: 2063804899770362485, guid: 213094d4c784dc544963eb05867bcfdb, type: 3}
+        - {fileID: 2848316866736881218, guid: c16297ab51ddc1c4186e22a2c68441c3, type: 3}
+        - {fileID: 5198657571790095555, guid: 6cc13cbc959090546a0d77b6abe25103, type: 3}
+        - {fileID: 658642693073308037, guid: be3fd89d2d84f014baf35c51af251d9d, type: 3}
+        - {fileID: 1863931516419782721, guid: 8e0c56aadb4967f44b1ad882fee09a18, type: 3}
+        - {fileID: 4454061649714819430, guid: e89d5026f37539d4d8896fa4a6c26be4, type: 3}
+        - {fileID: 5846979273423116844, guid: b401140245bd1c44daa0fd8268115bd2, type: 3}
+        - {fileID: 5310876580577271415, guid: 3f2114a2fa66a7c49982ee8411b78a0f, type: 3}
+        - {fileID: 1379948035302896749, guid: bd535427100b29448a39bd0a86c1a4ec, type: 3}
+        - {fileID: 569737125887510168, guid: 8a9b43827654b654f9e0a6a4b5098961, type: 3}
+        - {fileID: 2780390343623116242, guid: a073d0f569604fa4da2ad876dd5ecacf, type: 3}
+        - {fileID: 3652979560459798511, guid: 04c1baabd7082a346820ee6818f6a345, type: 3}
+        - {fileID: 7336780723803151402, guid: 3484e591218cdb54eb4ac69c4f8b001e, type: 3}
+        - {fileID: 4976580156291426265, guid: 082c5d5548cf6b24e8880a75d3d8eeb9, type: 3}
+        - {fileID: 429117733946468551, guid: e2ff47b0b0e716a499da90cc736344d4, type: 3}
+        - {fileID: 6783180368797379891, guid: ca27baabc662f5f42a25d721439f3fc5, type: 3}
+        subPrefabCategories: []
+      - category: Rocks
+        prefabs:
+        - {fileID: 3972560785159069723, guid: f98ffc654d4912b48b6dd1340e7f8f26, type: 3}
+        - {fileID: 3389753415232145076, guid: db6a550507ceecb4b9684ac2dfd91934, type: 3}
+        - {fileID: 6118812629437481911, guid: 87c6b102d941dd94abd926bc905d8041, type: 3}
+        - {fileID: 1792755611047110609, guid: 8aba3d58802412b4db3fa2b0a6111239, type: 3}
+        - {fileID: 6770781823739551877, guid: b86f0635c5e6f05439331f75dafd97ec, type: 3}
+        - {fileID: 4260742119268773873, guid: 74a6380070ea72144b5ce5635cbfbb4c, type: 3}
+        - {fileID: 2466607226617464909, guid: d28ffbf09954f6f4888e12f949348f79, type: 3}
+        - {fileID: 6011591584054240571, guid: 2601ae8137efb4c4b95d2aa09b71f90e, type: 3}
+        - {fileID: 6315478485949811588, guid: 5e89b16378590af49adc2da411d0743d, type: 3}
+        - {fileID: 2440825911887804650, guid: 17ba70b5a4d20974fabc2d1b53e2adcd, type: 3}
+        - {fileID: 3159409425757896057, guid: b726dbaef18a2a3418a0108ebd6fcb01, type: 3}
+        - {fileID: 8192568620199750849, guid: ae66385041ef2684a8c924e7abdd4054, type: 3}
+        - {fileID: 375816650442550429, guid: 212d1b45a3c6be54fb5112fd07dca745, type: 3}
+        - {fileID: 1998460606016605628, guid: 301906139e1c52d43bacd6ac3e0fc35d, type: 3}
+        - {fileID: 8470611415597157490, guid: aa01b137eef50f148b510be553b62a76, type: 3}
+        subPrefabCategories: []
+      - category: Trees
+        prefabs:
+        - {fileID: 7747344465716947813, guid: df60f57116f520347be73bb30b981210, type: 3}
+        - {fileID: 7459142295531281639, guid: 1872db056555b1b46bc81910a0b53da5, type: 3}
+        - {fileID: 8197366301508386350, guid: 378e33b9f6d5ce040b4773226124c67e, type: 3}
+        - {fileID: 78070798531214388, guid: 2dd70b0ef259a434591aa705431e8263, type: 3}
+        subPrefabCategories: []
+      - category: Foliage
+        prefabs: []
+        subPrefabCategories: []
+      - category: Water
+        prefabs:
+        - {fileID: 1067240728262074628, guid: 134f819f4def4ee47bc1f2b694e42fba, type: 3}
+        - {fileID: 6687526101197789312, guid: 080bff3136e6c8041bcebd53bba6a59a, type: 3}
+        subPrefabCategories: []
+    - category: Sky Assets
+      prefabs: []
+      subPrefabCategories: []
+  - category: System
+    prefabs: []
+    subPrefabCategories:
+    - category: Waypoints
+      prefabs:
+      - {fileID: 1258149107514333521, guid: 0dd9fe05ea196a94a923d628e4e2ec08, type: 3}
+      subPrefabCategories: []
+    - category: Camera
+      prefabs:
+      - {fileID: 2525464681801607167, guid: 7b079228958414b468dbf886a74840e4, type: 3}
+      subPrefabCategories: []
+    - category: AI
+      prefabs: []
+      subPrefabCategories: []
+    - category: Quest
+      prefabs: []
+      subPrefabCategories: []
+  - category: VFX
+    prefabs: []
+    subPrefabCategories: []

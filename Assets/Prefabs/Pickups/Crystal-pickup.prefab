@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6581524349244541798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3945804647710668900}
+  - component: {fileID: 1371147589285016427}
+  - component: {fileID: 2126770347847287268}
+  - component: {fileID: -3420956452652806085}
+  m_Layer: 2
+  m_Name: Crystal-pickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3945804647710668900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581524349244541798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 13.8, z: 0}
+  m_LocalScale: {x: 1.75, y: 1.75, z: 1.75}
+  m_Children:
+  - {fileID: 5854476846463787870}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371147589285016427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581524349244541798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc645145cee8844ebacc1987e3589ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPickup:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5854476846463787869}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: OnPickup
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: -3420956452652806085}
+        m_TargetAssemblyTypeName: AudioComponent, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: coin_pickup
+          m_BoolArgument: 0
+        m_CallState: 2
+  destroyOnPickup: 1
+  destroyAfterSeconds: 1
+--- !u!65 &2126770347847287268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581524349244541798}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4726781, y: 2.0981555, z: 0.2}
+  m_Center: {x: 0.010628837, y: -0.019435339, z: 0}
+--- !u!114 &-3420956452652806085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581524349244541798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a341e3a5c62dab044a11534916dd6ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioDatas:
+  - name: coin_pickup
+    audioClips:
+    - {fileID: 8300000, guid: 80f532720618ffc419d2b901ff51e324, type: 3}
+    volume: 0.341
+    randomOrder: 0
+    cooldownTimer: 0
+    isLooping: 0
+    source: {fileID: 0}
+  crossfadeTime: 100
+--- !u!1001 &7855176305340531133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3945804647710668900}
+    m_Modifications:
+    - target: {fileID: 4340474532945617633, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_Name
+      value: go_crystal 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f69f24b1ac1d624438b4fe2056afd70a, type: 3}
+--- !u!4 &5854476846463787870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4340474532945617635, guid: f69f24b1ac1d624438b4fe2056afd70a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7855176305340531133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5854476846463787869 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4340474532945617632, guid: f69f24b1ac1d624438b4fe2056afd70a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7855176305340531133}
+  m_PrefabAsset: {fileID: 0}

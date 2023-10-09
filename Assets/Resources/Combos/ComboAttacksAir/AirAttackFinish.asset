@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2626d6f2348dd9c4dbeb62c81bcad8c2, type: 3}
+  m_Name: AirAttackFinish
+  m_EditorClassIdentifier: 
+  damage: 0
+  forceIntensity: 1
+  forceDirection: {x: 3, y: 8}
+  animation: {fileID: -5052147168145093162, guid: a05744879fc18dc479bcfbcbace67964,
+    type: 3}
+  animationSpeed: 100
+  inAir: 1
+  triggersHitState: 0
+  gravityScale: 1
+  currentHitboxNumber: 0
+  startActiveHitbox: 0
+  endActiveHitbox: 1
+  freezeTiming: 0
+  freezeTime: 7
+  isStateUncancellable: 1
+  frameId: 1
+  useParticle: 1
+  particleID: 18

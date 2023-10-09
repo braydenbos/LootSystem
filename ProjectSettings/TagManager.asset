@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - platform
+  - anchorpoint
+  - pointofinterest
+  - Waypoint
+  - magnetic
+  - OneWay
+  - MagneticPlatform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Obstacle
+  - Passthrough
+  - Background
+  - Platforms
+  - PlayFront
+  - PlayBack
+  - Foreground
+  - VFX
+  - PlayerPlayer
+  - InterestingPoint
+  - Enemy
+  - Selectable
+  - CameraCollider
+  - Liquid
+  - OneWay
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: VFX
+    uniqueID: 2060908749
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Characters
+    uniqueID: 1784107229
+    locked: 0
+  - name: Attackingplayer
+    uniqueID: 1593386599
+    locked: 0
+  - name: Platforms2D
+    uniqueID: 1359383105
+    locked: 0
